@@ -10,7 +10,7 @@ const app = express();
 
 mongoose.set("strictQuery", false);
 mongoose
-	.connect("mongodb://127.0.0.1:27017/BacalClinic-DB")
+	.connect("mongodb://mongo:OEgcv2kTVW50BixEc1oY@containers-us-west-56.railway.app:7175")
 	.then(() => console.log("Connection to MongoDB: STATUS SUCCESS"))
 	.catch((err) => console.error("Connection to MongoDB: STATUS FAILED"));
 
